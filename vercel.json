@@ -1,4 +1,9 @@
 {
+  "functions": {
+    "api/news.js": {
+      "maxDuration": 10
+    }
+  },
   "headers": [
     {
       "source": "/(.*)",
