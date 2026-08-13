@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="pt-AO">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Pulso Angola — notícias de Angola e do mundo, atualizadas ao longo do dia.">
+  <meta name="theme-color" content="#07111f">
+  <title>Pulso Angola — Notícias de Angola</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="top">
+    <div class="wrap nav">
+      <a class="brand" href="/" aria-label="Pulso Angola">
+        <span class="brand-mark">PA</span>
+        <span>PULSO <b>ANGOLA</b></span>
+      </a>
+      <button class="menu" aria-label="Abrir menu">☰</button>
+      <nav>
+        <a href="#ultimas">Últimas</a>
+        <a href="#angola">Angola</a>
+        <a href="#economia">Economia</a>
+        <a href="#desporto">Desporto</a>
+        <a href="#tecnologia">Tecnologia</a>
+        <a href="#mundo">Mundo</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="breaking">
+    <div class="wrap breaking-in">
+      <span class="live">AO VIVO</span>
+      <div id="ticker">A carregar as notícias mais recentes de Angola…</div>
+      <span id="updated">—</span>
+    </div>
+  </div>
+
+  <main class="wrap">
+    <section class="hero">
+      <div>
+        <p class="eyebrow">ANGOLA • ÁFRICA • MUNDO</p>
+        <h1>O que está a acontecer,<br><em>agora.</em></h1>
+        <p class="lead">Informação rápida, clara e independente, com foco em Angola e alcance global.</p>
+        <a class="cta" href="#ultimas">Ver últimas notícias ↓</a>
+      </div>
+      <div class="hero-card">
+        <span>EDIÇÃO DIGITAL</span>
+        <strong>24/7</strong>
+        <small>Atualização automática</small>
+      </div>
+    </section>
+
+    <div class="ad-slot top-ad"><span>PUBLICIDADE</span><div class="ad-box">Espaço para Google AdSense</div></div>
+
+    <section id="ultimas" class="section">
+      <div class="section-head"><h2>Últimas notícias</h2><span id="status">A atualizar…</span></div>
+      <div id="news" class="grid"></div>
+    </section>
+
+    <div class="ad-slot"><span>PUBLICIDADE</span><div class="ad-box">Espaço para Google AdSense</div></div>
+
+    <section id="angola" class="section">
+      <div class="section-head"><h2>Angola</h2><a href="#ultimas">Ver tudo →</a></div>
+      <div id="angola-news" class="grid compact"></div>
+    </section>
+
+    <section id="economia" class="section">
+      <div class="section-head"><h2>Economia</h2></div>
+      <div id="economia-news" class="grid compact"></div>
+    </section>
+
+    <section id="desporto" class="section">
+      <div class="section-head"><h2>Desporto</h2></div>
+      <div id="desporto-news" class="grid compact"></div>
+    </section>
+
+    <section id="tecnologia" class="section">
+      <div class="section-head"><h2>Tecnologia</h2></div>
+      <div id="tecnologia-news" class="grid compact"></div>
+    </section>
+
+    <section id="mundo" class="section">
+      <div class="section-head"><h2>Mundo</h2></div>
+      <div id="mundo-news" class="grid compact"></div>
+    </section>
+
+    <section class="newsletter">
+      <div>
+        <p class="eyebrow">PULSO DIRETO</p>
+        <h2>Receba as principais notícias.</h2>
+        <p>Uma seleção das notícias mais importantes, diretamente no seu e-mail.</p>
+      </div>
+      <form onsubmit="subscribe(event)">
+        <input type="email" placeholder="O seu e-mail" required>
+        <button>Subscrever</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-grid">
+      <div>
+        <a class="brand" href="/"><span class="brand-mark">PA</span><span>PULSO <b>ANGOLA</b></span></a>
+        <p>Notícias de Angola para leitores em todo o mundo.</p>
+      </div>
+      <div><h3>Redação</h3><a href="/sobre.html">Sobre nós</a><a href="/contacto.html">Contacto</a><a href="/privacidade.html">Privacidade</a><a href="/termos.html">Termos</a></div>
+      <div><h3>Editorial</h3><a href="#angola">Angola</a><a href="#economia">Economia</a><a href="#desporto">Desporto</a><a href="#tecnologia">Tecnologia</a></div>
+    </div>
+    <div class="wrap copyright">© 2026 Pulso Angola. Todos os direitos reservados.</div>
+  </footer>
+
+  <script src="/app.js"></script>
+</body>
+</html>
